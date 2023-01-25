@@ -1,0 +1,221 @@
+/*header*/
+header{
+    background-color:#FFF4E7;
+    padding-bottom:50px;
+}
+
+.head-image img{
+    width:1000px;
+    height:500px;
+    margin-left:170px;
+    margin-top:30px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin:0 160px;
+}
+nav ul{
+    display:flex;
+}
+nav li{
+    list-style: none;
+    margin-left:50px;
+}
+.brand{
+    font-size:40px;
+}
+.detail{
+    text-align:center;
+    margin-top:40px;
+}
+
+/*features section*/
+
+
+.features-image img{
+    width:250px;
+    height:250px;
+    margin:8px 8px;
+}
+.main-features{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:150px;
+    margin-top:50px;
+}
+.quick{
+    margin-top:120px;
+}
+.orange{
+    color:orange;
+    font-size:40px;
+    font-weight:bold;
+}
+.black{
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+}
+.normal{
+    
+    font-size:40px;
+    
+}
+button{
+    color:white;
+    background:orange;
+    padding:20px 20px;
+    border:0;
+    border-radius: 5px;
+}
+.color{
+    color:black;
+}
+/* love & enjoy*/
+.enjoy{
+    margin-top:70px;
+}
+.main{
+    display:flex;
+    justify-content:center;
+    gap:100px;
+}
+.another{
+    padding-left:15px;
+    padding-top:15px;
+}
+.sub-head{
+    border-left:5px solid orange;
+    padding-left:15px;
+    font-size:35px;
+}
+.desktop{
+    font-weight:bold;
+}
+.sideby img{
+    width:400px;
+}
+.up{
+    
+    margin-left:650px;
+    margin-top:-200px;
+}
+.ten{
+    font-size:30px;
+    font-weight:bold;
+}
+.extra{
+    padding:50px 50px;
+}
+
+/* some facts*/
+.facts{
+    margin-top:120px;
+    
+}
+.some{
+    font-size:30px;
+}
+.division{
+    margin-top:70px;
+}
+.award{
+    border:1px solid yellow;
+    padding: 50px 50px;
+    
+}
+.award:hover{
+    transform:rotate(75deg);
+}
+.facts{
+    margin-left:165px;
+}
+.division{
+    display:flex;
+    justify-content: center;
+    gap:85px;
+    
+}
+.border{
+    margin-top:7px;
+    text-align:center;
+    margin-left:-28px;
+}
+/*sponsor*/
+.sponsor{
+    margin-top:120px;
+}
+.our{
+    text-align:center;
+    font-size:30px;
+}
+.there{
+    text-align:center;
+}
+.logo-last img{
+    margin-left:80px;
+    margin-top:30px;
+}
+/* footer */
+
+footer{
+    
+    margin-top:100px;
+    background-color:#FFF4E7;
+    padding:15px;
+    margin-bottom:150px;
+}
+.last{
+    text-align:center;
+}
+/*---ertra-----*/
+.buy{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+}
+
+.buy img{
+    width:50px;
+}
+.just{
+    text-align:justify;
+}
+.product{
+    text-align:center;
+    font-size:40px;
+}
+
+
+
+/*responsive css*/
+@media  screen and (max-width:576px) {
+    /*features section*/
+    .main-features{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick{
+        margin-left:-70px;
+    }
+    .facts{
+        margin-left:50px;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+    
+ /*some facts*/       
+    .division{
+        flex-direction: column;
+    }
+    .award img{
+        margin-left:100px;
+    }
+    .features-image img{
+        margin-left:-80px;
+    }
+}
+
